@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="PinkDialogTheme"
+        parent="Theme.AppCompat.Light.Dialog.Alert">
+
+        <item name="colorAccent">#FF4081</item>
+
+    </style>
+
+</resources>
+
