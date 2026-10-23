@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="#33B5E6">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:text="과일 이름:"
+        android:textColor="#333333"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/editFruit"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:padding="10dp"
+        android:backgroundTint="#00E5C3"
+        android:textCursorDrawable="@drawable/mint_cursor"
+        android:hint="과일 이름을 입력해주세요"
+        android:textColor="#333333"
+        android:textColorHint="#555555"
+        android:textSize="14sp"
+        android:singleLine="true" />
+
+</LinearLayout>
