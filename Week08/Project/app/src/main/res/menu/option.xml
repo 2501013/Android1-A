@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_color"
+        android:title="색상 설정"
+        app:actionLayout="@layout/action_color_icon"
+        app:showAsAction="always" />
+
+    <group
+        android:id="@+id/image_group"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menu_image_set"
+            android:title="배경 이미지 설정" />
+
+        <item
+            android:id="@+id/menu_image_remove"
+            android:title="배경 이미지 삭제" />
+
+    </group>
+
+</menu>
